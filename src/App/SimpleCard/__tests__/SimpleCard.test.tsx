@@ -38,5 +38,5 @@ describe('SimpleCard', () => {
 
     const imageElement = screen.getByAltText('Image of React logo');
     expect(imageElement).toBeInTheDocument();
-  })
+  });
 });
